@@ -15,7 +15,7 @@ The initial design  was based on a server-client model. Each was a python script
 - The server had to be restarted to accept a new client.
 
 # Final Design
-The final design utilized Python Flask for server and SocketIO for the client. The client became a web application that could be accessed using a web browser from any device on the LAN. The server was able to handle multiple clients at the same time and could be accessed from any device on the same network. The server was able to broadcast messages to all connected clients, making it a group chat application for all users on the LAN.
+The final design utilized Python Flask for server and SocketIO for the client. The client became a web application that could be accessed using a web browser from any device on the LAN. The server was able to handle multiple clients at the same time and could be accessed from any device on the same network. The server was able to broadcast messages to all connected clients, making it a group chat application for all users on the LAN. All screenshots of the initial & final design can be found in the `static` folder.
 ## Features:
 - Real-time communication with a group of users.
 - User-friendly interface.
